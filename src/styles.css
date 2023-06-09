@@ -1,1 +1,54 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --primary-0: #6d2e46;
+    --primary-1: #735D78; /* blue */
+    --primary-2: #B392AC; /* blue */
+    --primary-3: #D1B3C4; /* blue */
+    --primary-4: #fff1f4; /* blue */  
+    --primary-5: #F7D1CD; /* blue */
+    --secondary-0: #edf6f9;
+    --secondary-1: #614866;
+    --secondary-2: #ffdff8;
+    --secondary-3: #ffedfb;
+    --secondary-4: #E9ECEF;
+    --secondary-5: #d2d6da;
+    --pastel-0: #b9fbc0;
+    --pastel-1: #fde4cf;
+    --pastel-2: #fbf8cc;
+    --pastel-3: #f1c0e8;
+    --pastel-4: #caf0f8;
+    --yellow-0: #f9c74f;
+  }
+
+@font-face {
+  font-family: 'GreatVibes';
+  src: url('../src/assets/fonts/GreatVibes-Regular.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Marcellus';
+  src: url('../src/assets/fonts/Marcellus-Regular.ttf') format('opentype');
+}
+@font-face {
+  font-family: 'Cinzel';
+  src: url('../src/assets/fonts/Cinzel.ttf') format('opentype');
+}
+
+* {
+  font-family: 'Marcellus', 'Cinzel' !important
+}
+.candly-title{
+    font-family: 'GreatVibes', sans-serif !important;
+}
+.marcellus-font{
+  font-family: 'Marcellus', sans-serif !important;
+}
+.cinzel-font{
+  font-family: 'Cinzel', sans-serif !important;
+}
+
+.hr-small{
+  width: 10%;
+  opacity: 0.5 !important;
+  border-color: var(--primary--1);
+  margin-bottom: 40px !important;
+}

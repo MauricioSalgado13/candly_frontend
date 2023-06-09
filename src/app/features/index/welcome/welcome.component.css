@@ -1,0 +1,33 @@
+.welcome-section{
+    position: relative;
+    background-image: url("../../../../assets/images/background-welcome.png");
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0 140px 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.welcome-section h1{
+    font-size: 72px !important;
+    font-weight: 500;
+    color: var(--secondary-0);
+}
+.welcome-section h4{
+    color: var(--secondary-0);
+}
+
+.btn-div{
+    width: fit-content;
+}
+.btn-shop-now{
+    font-size: 18px;
+    padding: 1em 1.2em;
+    background-color: var(--secondary-1);
+    border: none;
+    border-radius: 3px;
+    font-weight: 500;
+    color: var(--secondary-0);
+}
