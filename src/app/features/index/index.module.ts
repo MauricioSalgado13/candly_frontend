@@ -6,6 +6,7 @@ import { WelcomeModule } from './welcome/welcome.module';
 import { CategoriesModule } from './categories/categories.module';
 import { BestSellersModule } from './best-sellers/best-sellers.module';
 import { BenefitsModule } from './benefits/benefits.module';
+import { CardProductModule } from 'src/app/shared/card-product/card-product.module';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { BenefitsModule } from './benefits/benefits.module';
     WelcomeModule,
     CategoriesModule,
     BestSellersModule,
-    BenefitsModule
+    BenefitsModule,
+    CardProductModule
   ],
   exports: [IndexComponent],
   providers: [],
